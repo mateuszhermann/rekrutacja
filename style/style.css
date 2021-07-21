@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row; 
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    flex-direction: row;
+    
+}
+
+.links li{
+    list-style: none;
+}
+.links li a{
+    text-decoration: none;
+    color:white;
+    display: block;
+    padding: 1em;
+}
+.links li:hover{
+    background-color: #666666;
+}
+.siteName{
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error{
+    color:red;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+input{ 
+    margin: 0.5em;
+}
+textarea{
+    resize: none;
+    padding: 40px;
+}
+.wpis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding: 20px;
+}
+.user{
+    font-size: 1.4em;
+    border-bottom: 2px solid gray;
+    width: 100%; 
+    margin-bottom: 5px;
+}
+.tresc{
+    overflow-y: scroll;
+    width: 510px;
+    height: 300px;
+    font-size: 0.9em;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    padding-top: 30px;
+    text-align: justify;
+
+}
+.footer a{
+    color: white;
+}
+.footer a:hover{
+    color:gray;
+}
