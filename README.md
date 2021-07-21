@@ -1,13 +1,13 @@
 # Strona Wykonana w ramach zadania rekrutacyjnego
 
-##Wykorzystane technologie
+## Wykorzystane technologie
 
 - HTML
 - Php
 - Mysql
 - Css
 
-##Funkcje jakie spełnia aplikacja
+## Funkcje jakie spełnia aplikacja
 - Logowanie
 - Wylogowywanie
 - Listowanie zawartości tabeli w bazie danych
